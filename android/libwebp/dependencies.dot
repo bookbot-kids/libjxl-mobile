@@ -1,0 +1,6 @@
+digraph G {
+"libwebp" -> { "libpng" "libtiff" "libjpeg-turbo" "giflib" }
+"libpng" -> { "zlib" }
+"libtiff" -> { "zstd" }
+"zstd" -> { "xz" "zlib" }
+}

@@ -1,0 +1,8 @@
+digraph G {
+"libjxl" -> { "brotli" "libwebp" "openexr" }
+"libwebp" -> { "libpng" "libtiff" "libjpeg-turbo" "giflib" }
+"libpng" -> { "zlib" }
+"libtiff" -> { "zstd" }
+"zstd" -> { "xz" "zlib" }
+"openexr" -> { "imath" "zlib" }
+}
