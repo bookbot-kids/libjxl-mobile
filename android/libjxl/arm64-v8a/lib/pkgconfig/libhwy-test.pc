@@ -1,8 +1,0 @@
-prefix=${pcfiledir}/../..
-includedir=${prefix}/include
-
-Name: libhwy-test
-Description: Efficient and performance-portable SIMD wrapper, test helpers.
-Requires: gtest
-Version: 0.12.2
-Cflags: -I${includedir}

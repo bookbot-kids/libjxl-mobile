@@ -1,3 +1,0 @@
-digraph G {
-"openexr" -> { "imath" "zlib" }
-}

@@ -1,4 +1,0 @@
-digraph G {
-"libtiff" -> { "zstd" }
-"zstd" -> { "xz" "zlib" }
-}
